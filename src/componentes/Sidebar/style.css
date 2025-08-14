@@ -34,6 +34,6 @@ aside {
   border: 1px solid var(--verde-destaque);
   color: var(--verde-destaque);
   padding: 0.75em 1em;
-  boder-radius: 8px;
+  border-radius: 8px;
   text-decoration: none;
 }
