@@ -10,3 +10,14 @@
   --offwhite: #e1e1e1;
   --branco: #ffffff;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--grafite);
+  fonte-family: var(--fonte);
+}
