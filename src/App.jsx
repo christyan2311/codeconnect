@@ -1,12 +1,18 @@
 import "./App.css";
 import BarraDePesquisa from "./componentes/BarraDePesquisa";
+import Filtro from "./componentes/Filtro";
+import Ordenacao from "./componentes/Ordenação";
 import Sidebar from "./componentes/Sidebar";
 
 function App() {
   return (
-    <div className="container"> 
+    <div className="container">
       <Sidebar />
-      <BarraDePesquisa />
+      <div>
+        <BarraDePesquisa />
+        <Filtro />
+        <Ordenacao />
+      </div>
     </div>
   );
 }
