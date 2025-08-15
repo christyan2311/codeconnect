@@ -1,7 +1,7 @@
 .barra-pesquisa{
     width: 100%;
     color: var(--cinza-escuro);
-    padding: 5em 1em .5em 4em;
+    padding: .5em 1em .5em 4em;
     height: 49px;
     font-family: var(--fonte);
     font-size: 22px;
